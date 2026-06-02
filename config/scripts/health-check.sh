@@ -83,9 +83,6 @@ else
 fi
 echo ""
 
-echo -e "${BLUE}🔍 External Services Check:${NC}"
-test_endpoint "https://skate-insta.onrender.com/healthz" "Render Service" "status"
-
 echo -e "${BLUE}🧪 Live Download Test (Instagram Reel):${NC}"
 echo "Testing with: https://www.instagram.com/skate_dev/reel/DNw52r3WFU_/"
 echo ""
